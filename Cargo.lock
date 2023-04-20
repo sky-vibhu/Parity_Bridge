@@ -856,7 +856,7 @@ dependencies = [
  "finality-grandpa",
  "frame-support",
  "hex",
- "hex-literal",
+ "hex-literal 0.4.1",
  "parity-scale-codec",
  "scale-info",
  "serde",
@@ -884,7 +884,7 @@ dependencies = [
  "bp-runtime",
  "frame-support",
  "hex",
- "hex-literal",
+ "hex-literal 0.4.1",
  "parity-scale-codec",
  "scale-info",
  "serde",
@@ -970,7 +970,7 @@ dependencies = [
  "bp-runtime",
  "frame-support",
  "hex",
- "hex-literal",
+ "hex-literal 0.4.1",
  "parity-scale-codec",
  "scale-info",
  "sp-runtime",
@@ -1025,7 +1025,7 @@ dependencies = [
  "frame-support",
  "frame-system",
  "hash-db",
- "hex-literal",
+ "hex-literal 0.4.1",
  "impl-trait-for-tuples",
  "num-traits",
  "parity-scale-codec",
@@ -3792,6 +3792,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ebdb29d2ea9ed0083cd8cece49bbd968021bd99b0849edb4a9a7ee0fdf6a4e0"
 
 [[package]]
+name = "hex-literal"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6fe2267d4ed49bc07b63801559be28c718ea06c4738b7a03c94df7386d2cde46"
+
+[[package]]
 name = "hkdf"
 version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5412,7 +5418,7 @@ dependencies = [
  "frame-support",
  "frame-system",
  "frame-system-rpc-runtime-api",
- "hex-literal",
+ "hex-literal 0.4.1",
  "pallet-aura",
  "pallet-balances",
  "pallet-beefy",
@@ -8124,7 +8130,7 @@ version = "0.9.37"
 source = "git+https://github.com/paritytech/polkadot?branch=master#4f331d74c3004d9765b735ec66acc92edea62c7f"
 dependencies = [
  "bitvec",
- "hex-literal",
+ "hex-literal 0.3.4",
  "parity-scale-codec",
  "polkadot-core-primitives",
  "polkadot-parachain",
@@ -8382,7 +8388,7 @@ dependencies = [
  "frame-support",
  "frame-system-rpc-runtime-api",
  "futures",
- "hex-literal",
+ "hex-literal 0.3.4",
  "kvdb",
  "kvdb-rocksdb",
  "log",
@@ -9439,7 +9445,7 @@ dependencies = [
  "frame-system",
  "frame-system-benchmarking",
  "frame-system-rpc-runtime-api",
- "hex-literal",
+ "hex-literal 0.4.1",
  "pallet-aura",
  "pallet-balances",
  "pallet-bridge-grandpa",
@@ -12362,7 +12368,7 @@ dependencies = [
  "frame-support",
  "futures",
  "hex",
- "hex-literal",
+ "hex-literal 0.4.1",
  "log",
  "millau-runtime",
  "num-format",
