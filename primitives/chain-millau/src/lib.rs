@@ -124,10 +124,10 @@ pub mod time_units {
 pub type BlockNumber = u64;
 
 /// Hash type used in Millau.
-pub type Hash = <BlakeTwoAndKeccak256 as HasherT>::Out;
+pub type Hash = <BlakeTwo256 as HasherT>::Out;
 
 /// Type of object that can produce hashes on Millau.
-pub type Hasher = BlakeTwoAndKeccak256;
+pub type Hasher =BlakeTwo256;
 
 /// The header type used by Millau.
 pub type Header = sp_runtime::generic::Header<BlockNumber, Hasher>;
