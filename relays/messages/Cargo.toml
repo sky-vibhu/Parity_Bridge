@@ -10,7 +10,7 @@ async-std = { version = "1.6.5", features = ["attributes"] }
 async-trait = "0.1"
 futures = "0.3.26"
 hex = "0.4"
-log = "0.4.17"
+log = "0.4.19"
 num-traits = "0.2"
 parking_lot = "0.12.1"
 
